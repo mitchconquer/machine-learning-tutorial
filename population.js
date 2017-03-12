@@ -109,8 +109,9 @@ class Chromosome {
 }
 
 
-window.addEventListener("DOMContentLoaded", ()=>{
-  console.log('Loading...')
-  const population = new Population('Hello, world!', 100)
+window.addEventListener("DOMContentLoaded", () => {
+  const key = 'Hello, world!'
+  console.log(`Finding ${key}`)
+  const population = new Population(key, 100)
   population.generation()
 })
