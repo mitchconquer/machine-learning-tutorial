@@ -65,7 +65,7 @@ class Population {
 
     this.generationNumber += 1
 
-    setTimeout(this.generation.bind(this), 100)
+    setTimeout(this.generation.bind(this), 20)
   }
 }
 
@@ -111,6 +111,6 @@ class Chromosome {
 
 window.addEventListener("DOMContentLoaded", ()=>{
   console.log('Loading...')
-  const population = new Population('Hello, world!', 20)
+  const population = new Population('Hello, world!', 100)
   population.generation()
 })
