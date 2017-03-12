@@ -37,4 +37,4 @@ class Chromosome {
   }
 }
 
-module.exports Chromosome
+export default Chromosome
